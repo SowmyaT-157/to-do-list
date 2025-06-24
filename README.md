@@ -17,11 +17,13 @@
       - [Clone:](#clone)
   - [Contributing](#contributing)
   - [Contact](#contact)
+  - [Sample Output](#sample-output)
 
 ---
 
 ##  Features
-- It is a simple To-Do list app, It can be use every day to track your tasks.  
+- It is a simple To-Do list app, It can be use every day to track your tasks. 
+- It has a user can add new Task to the Todo list1       
 ##  Tech Stack
 
 - Node Js
@@ -88,4 +90,7 @@
 For any issues or in Queries ,contact Sowmya T_157
 
  https://github.com/SowmyaT-157
+
+## Sample Output
+![output](assert/add.png) 
 
