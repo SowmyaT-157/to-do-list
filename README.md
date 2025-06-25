@@ -26,7 +26,9 @@
 - It has a user can add new Task to the Todo list1 
 - Tasks are added using the addTask(description: string) function and marked complete using markTaskAsDone(id: number) 
 - If we give a parameter which Id work dodn that will be show true.  
-- It show a pending list of task, task.user can easily findout which tasks are not yet completed.   
+- It show a pending list of task, task.user can easily findout which tasks are not yet completed. 
+- Deleting an existing task by valid ID
+- Attempting to delete a task by invalid ID should return false.  
 ##  Tech Stack
 
 - Node Js
@@ -95,5 +97,5 @@ For any issues or in Queries ,contact Sowmya T_157
  https://github.com/SowmyaT-157
 
 ## Sample Output
-![output](assert/pendinglist.png) 
+![output](output/delete.png) 
 
