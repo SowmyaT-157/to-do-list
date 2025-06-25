@@ -1,4 +1,4 @@
-
+import{pendingTasks} from "../src/pendingTasks/displayPending"
 import { addTask,tasks } from "../src/addTask/add";
 import { markTaskDone } from "../src/markDone/done";
 
@@ -15,7 +15,7 @@ describe("getPendingTasks for Todo Management", () => {
     expect(pending).toEqual([
       { id: task1.id, description: task1.description, completed: false },
     ]);
-    expect(pending.length).toBe(2);
+    expect(pending.length).toBe(1);
   });
 
   test("should return empty array when all tasks are completed", () => {
