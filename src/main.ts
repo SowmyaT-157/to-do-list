@@ -1,6 +1,7 @@
 console.log("TO - Do App...")
 import { addTask,tasks}  from "./addTask/add";
 import { markTaskDone } from "./markDone/done";
+import { pendingTasks}  from "./pendingTasks/displayPending";
 
 
 addTask("Buy milk");
@@ -26,4 +27,11 @@ tasks.forEach(task => {
   description: "${task.description}";
   Completed: ${task.completed};
 }`);
+});
+
+
+const pending = pendingTasks();
+console.log("Pending Tasks:");
+pending.forEach(task => {
+  console.log(`ID: ${task.id}, Description: ${task.description}, Completed: ${task.completed}`);
 });

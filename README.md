@@ -25,7 +25,8 @@
 - It is a simple To-Do list app, It can be use every day to track your tasks. 
 - It has a user can add new Task to the Todo list1 
 - Tasks are added using the addTask(description: string) function and marked complete using markTaskAsDone(id: number) 
-- If we give a parameter which Id work dodn that will be show true.     
+- If we give a parameter which Id work dodn that will be show true.  
+- It show a pending list of task, task.user can easily findout which tasks are not yet completed.   
 ##  Tech Stack
 
 - Node Js
@@ -94,5 +95,5 @@ For any issues or in Queries ,contact Sowmya T_157
  https://github.com/SowmyaT-157
 
 ## Sample Output
-![output](assert/add.png) 
+![output](assert/pendinglist.png) 
 
