@@ -19,4 +19,7 @@ jobs:
      
      - name: check the test coverage
        run: npm test -- --coverage
+
+     - name: deploy the application
+       run: echo "Deploy application" 
      
