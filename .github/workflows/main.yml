@@ -17,3 +17,6 @@ jobs:
      - name: test the application
        run: npm test
      
+     - name: check the test coverage
+       run: npm test -- --coverage
+     
