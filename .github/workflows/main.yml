@@ -6,6 +6,7 @@ jobs:
   my-jobs:
    runs-on: ubuntu-latest
    steps:
+     - name: setup a version
      - uses: actions/checkout@v3
      
      - name: install dependencies
